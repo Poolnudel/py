@@ -1,13 +1,13 @@
 from pyzufall.person import Person
 p1 = Person()
  
-x = (p1.geschlecht "männlich" if "weiblich" else);
-
 print(p1)
 
+x = "männlich" if p1.geschlecht == 1 else "weiblich"
+
 print("Vorname: " + p1.vorname)
-print("Geschlecht: " + str(x))
 print("Nachname: " + p1.nachname)
+print("Geschlecht: " + x)
 print("Geburtsdatum: {} Alter: {}".format(p1.geburtsdatum, p1.alter))
 print("Wohnort: " + p1.wohnort)
 print("E-Mail: " + p1.email)
